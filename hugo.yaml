@@ -1,5 +1,5 @@
 baseURL: https://spendly.co.in
-title: johndoe
+title: Spendly
 theme: hugo-coder
 languagecode: en
 defaultcontentlanguage: en
@@ -16,18 +16,18 @@ markup:
     style: github-dark
 
 params:
-  author: John Doe
-  info: Full Stack DevOps and Magician
-  description: John Doe's personal website
-  keywords: blog,developer,personal
-  avatarurl: images/avatar.jpg
+  author: Spendly
+  info: No nonsense personal finance tracker. Coming soon™
+  description: Spendly is a fully offline, privacy-first personal finance tracking application designed to help you take control of your financial life. Your data stays on your device, ensuring complete privacy and security. Track expenses, manage budgets, and gain insights into your spending habits without compromising your personal information or relying on cloud services.
+  keywords: finance,tracker,offline,privacy
+  avatarurl: img/favicon.png
   #gravatar: john.doe@example.com
   
   faviconSVG: /img/favicon.svg
-  favicon_32: /img/favicon-32x32.png
-  favicon_16: /img/favicon-16x16.png
+  favicon_32: img/favicon.ico
+  favicon_16: img/favicon.ico
   
-  since: 2019
+  since: 2025
   
   enableTwemoji: true
   
@@ -42,15 +42,11 @@ params:
     - name: Github
       icon: fa-brands fa-github fa-2x
       weight: 1
-      url: https://github.com/johndoe/
-    - name: Gitlab
-      icon: fa-brands fa-gitlab fa-2x
+      url: https://github.com/spendly-co-in/spendly/
+    - name: Play Store
+      icon: fa-brands fa-google-play fa-2x
       weight: 2
-      url: https://gitlab.com/johndoe/
-    - name: Twitter
-      icon: fa-brands fa-x-twitter fa-2x
-      weight: 3
-      url: https://twitter.com/johndoe/
+      url: "#"
 
 taxonomies:
   category: categories
@@ -60,9 +56,9 @@ taxonomies:
 
 menu:
   main:
-    - name: Blog
+    - name: Privacy
       weight: 1
-      url: posts/
+      url: privacy/
     - name: About
       weight: 2
       url: about/
